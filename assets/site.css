@@ -78,7 +78,6 @@ a {
 
 .home-menu .menu-item,
 .main-menu .menu-item {
-  left: 30.09px;
   position: absolute;
   font-size: 16px;
   font-weight: 400;
@@ -88,6 +87,14 @@ a {
   text-decoration-thickness: 2px;
   text-decoration-color: var(--accent);
   text-underline-offset: 3px;
+}
+
+.home-menu .menu-item {
+  left: 30.09px;
+}
+
+.main-menu .menu-item {
+  left: 0;
 }
 
 .home-menu .menu-item.is-active,
@@ -301,7 +308,7 @@ a {
   }
 
   .main-menu .menu-item {
-    left: 29.91px;
+    left: 0;
     font-size: 16px;
     font-family: "Pretendard Regular", Pretendard, "Noto Sans KR", sans-serif;
     font-weight: 400;
@@ -425,7 +432,7 @@ a {
   }
 
   .main-menu .menu-item {
-    left: 30.33px;
+    left: 0;
     font-size: 16px;
     font-family: "Pretendard Regular", Pretendard, "Noto Sans KR", sans-serif;
     font-weight: 400;
