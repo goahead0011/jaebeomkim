@@ -1,0 +1,53 @@
+@import url("../assets/site.css");
+
+.contact-page .main-menu .menu-item:not(.is-active) {
+	display: none;
+	pointer-events: none;
+}
+
+.contact-page .main-menu .menu-item.is-active {
+	pointer-events: none;
+	cursor: default;
+}
+
+@media (min-width: 1024px) {
+	.contact-page .contact-layout {
+		--contact-info-width: 352px;
+		--contact-right-padding: 78px;
+		--contact-stroke-gap: 16px;
+
+		display: flex;
+		flex-direction: column;
+		width: 100vw;
+		margin-left: calc(50% - 50vw);
+		padding-top: 492px;
+		padding-right: var(--contact-right-padding);
+	}
+
+	.contact-page .contact-divider {
+		order: 1;
+		width: calc(100vw - (var(--contact-info-width) + var(--contact-right-padding) + var(--contact-stroke-gap)));
+		margin: 0;
+	}
+
+	.contact-page .contact-name {
+		order: 2;
+		width: var(--contact-info-width);
+		max-width: var(--contact-info-width);
+		margin: 0px 0 44px auto;
+		text-align: left;
+	}
+
+	.contact-page .contact-grid {
+		order: 3;
+		width: var(--contact-info-width);
+		max-width: var(--contact-info-width);
+		margin-left: auto;
+		grid-template-columns: 132px 1fr;
+		column-gap: 12px;
+	}
+
+	.contact-page .contact-grid dd {
+		text-align: left;
+	}
+}

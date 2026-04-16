@@ -1,0 +1,10 @@
+# OS / editor artifacts
+.DS_Store
+.vscode/
+
+# Local backups not needed for deployment
+**/backup_20260416/
+
+# Optional: local logs/temp
+*.log
+*.tmp
