@@ -1,5 +1,3 @@
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
-
 :root {
   --bg: #ffffff;
   --text: #000000;
@@ -78,6 +76,7 @@ a {
 
 .home-menu .menu-item,
 .main-menu .menu-item {
+  left: 30.09px;
   position: absolute;
   font-size: 16px;
   font-weight: 400;
@@ -87,14 +86,6 @@ a {
   text-decoration-thickness: 2px;
   text-decoration-color: var(--accent);
   text-underline-offset: 3px;
-}
-
-.home-menu .menu-item {
-  left: 30.09px;
-}
-
-.main-menu .menu-item {
-  left: 0;
 }
 
 .home-menu .menu-item.is-active,
@@ -308,7 +299,7 @@ a {
   }
 
   .main-menu .menu-item {
-    left: 0;
+    left: 29.91px;
     font-size: 16px;
     font-family: "Pretendard Regular", Pretendard, "Noto Sans KR", sans-serif;
     font-weight: 400;
@@ -432,7 +423,7 @@ a {
   }
 
   .main-menu .menu-item {
-    left: 0;
+    left: 30.33px;
     font-size: 16px;
     font-family: "Pretendard Regular", Pretendard, "Noto Sans KR", sans-serif;
     font-weight: 400;
