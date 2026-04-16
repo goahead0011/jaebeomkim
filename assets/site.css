@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
 :root {
   --bg: #ffffff;
   --text: #000000;
@@ -15,12 +17,14 @@ body {
   padding: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: "Pretendard Regular", Pretendard, "Noto Sans KR", sans-serif;
+  font-family: "Pretendard", "Noto Sans KR", sans-serif;
   font-weight: 400;
 }
 
 html {
   scrollbar-gutter: stable;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 @supports not (scrollbar-gutter: stable) {
@@ -36,6 +40,7 @@ a {
 
 .home-page {
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -76,7 +81,7 @@ a {
 
 .home-menu .menu-item,
 .main-menu .menu-item {
-  left: 30.09px;
+  left: 30px;
   position: absolute;
   font-size: 16px;
   font-weight: 400;
@@ -98,37 +103,37 @@ a {
 
 .home-menu .menu-item:nth-child(1),
 .main-menu .menu-item:nth-child(1) {
-  top: 28.72px;
+  top: 29px;
 }
 
 .home-menu .menu-item:nth-child(2),
 .main-menu .menu-item:nth-child(2) {
-  top: 50.61px;
+  top: 51px;
 }
 
 .home-menu .menu-item:nth-child(3),
 .main-menu .menu-item:nth-child(3) {
-  top: 72.49px;
+  top: 72px;
 }
 
 .home-menu .menu-item:nth-child(4),
 .main-menu .menu-item:nth-child(4) {
-  top: 94.38px;
+  top: 94px;
 }
 
 .home-menu .menu-item:nth-child(5),
 .main-menu .menu-item:nth-child(5) {
-  top: 116.26px;
+  top: 116px;
 }
 
 .home-menu .menu-item:nth-child(6),
 .main-menu .menu-item:nth-child(6) {
-  top: 138.15px;
+  top: 138px;
 }
 
 .home-menu .menu-item:nth-child(7),
 .main-menu .menu-item:nth-child(7) {
-  top: 185.13px;
+  top: 185px;
 }
 
 .home-image {
@@ -294,50 +299,50 @@ a {
   .home-menu .menu-item {
     left: 0;
     font-size: 16px;
-    font-family: "Pretendard Regular", Pretendard, "Noto Sans KR", sans-serif;
+    font-family: "Pretendard", "Noto Sans KR", sans-serif;
     font-weight: 400;
   }
 
   .main-menu .menu-item {
-    left: 29.91px;
+    left: 30px;
     font-size: 16px;
-    font-family: "Pretendard Regular", Pretendard, "Noto Sans KR", sans-serif;
+    font-family: "Pretendard", "Noto Sans KR", sans-serif;
     font-weight: 400;
   }
 
   .home-menu .menu-item:nth-child(1),
   .main-menu .menu-item:nth-child(1) {
-    top: 28.55px;
+    top: 29px;
   }
 
   .home-menu .menu-item:nth-child(2),
   .main-menu .menu-item:nth-child(2) {
-    top: 50.3px;
+    top: 50px;
   }
 
   .home-menu .menu-item:nth-child(3),
   .main-menu .menu-item:nth-child(3) {
-    top: 72.05px;
+    top: 72px;
   }
 
   .home-menu .menu-item:nth-child(4),
   .main-menu .menu-item:nth-child(4) {
-    top: 93.8px;
+    top: 94px;
   }
 
   .home-menu .menu-item:nth-child(5),
   .main-menu .menu-item:nth-child(5) {
-    top: 115.55px;
+    top: 116px;
   }
 
   .home-menu .menu-item:nth-child(6),
   .main-menu .menu-item:nth-child(6) {
-    top: 137.3px;
+    top: 137px;
   }
 
   .home-menu .menu-item:nth-child(7),
   .main-menu .menu-item:nth-child(7) {
-    top: 180.05px;
+    top: 180px;
   }
 
   .home-image {
@@ -418,50 +423,50 @@ a {
   .home-menu .menu-item {
     left: 0;
     font-size: 16px;
-    font-family: "Pretendard Regular", Pretendard, "Noto Sans KR", sans-serif;
+    font-family: "Pretendard", "Noto Sans KR", sans-serif;
     font-weight: 400;
   }
 
   .main-menu .menu-item {
-    left: 30.33px;
+    left: 30px;
     font-size: 16px;
-    font-family: "Pretendard Regular", Pretendard, "Noto Sans KR", sans-serif;
+    font-family: "Pretendard", "Noto Sans KR", sans-serif;
     font-weight: 400;
   }
 
   .home-menu .menu-item:nth-child(1),
   .main-menu .menu-item:nth-child(1) {
-    top: 28.95px;
+    top: 29px;
   }
 
   .home-menu .menu-item:nth-child(2),
   .main-menu .menu-item:nth-child(2) {
-    top: 51.01px;
+    top: 51px;
   }
 
   .home-menu .menu-item:nth-child(3),
   .main-menu .menu-item:nth-child(3) {
-    top: 73.07px;
+    top: 73px;
   }
 
   .home-menu .menu-item:nth-child(4),
   .main-menu .menu-item:nth-child(4) {
-    top: 95.13px;
+    top: 95px;
   }
 
   .home-menu .menu-item:nth-child(5),
   .main-menu .menu-item:nth-child(5) {
-    top: 117.18px;
+    top: 117px;
   }
 
   .home-menu .menu-item:nth-child(6),
   .main-menu .menu-item:nth-child(6) {
-    top: 139.24px;
+    top: 139px;
   }
 
   .home-menu .menu-item:nth-child(7),
   .main-menu .menu-item:nth-child(7) {
-    top: 178.3px;
+    top: 178px;
   }
 
   .home-image {
