@@ -403,14 +403,22 @@ a {
   .home-menu {
     width: 236.44px;
     height: 213px;
-    left: 0;
+    left: 17px;
     top: 81px;
   }
 
-  .home-menu .menu-item,
+  .home-menu .menu-item {
+    left: 0;
+    font-size: 16px;
+    font-family: "Pretendard Regular", Pretendard, "Noto Sans KR", sans-serif;
+    font-weight: 400;
+  }
+
   .main-menu .menu-item {
     left: 30.33px;
     font-size: 16px;
+    font-family: "Pretendard Regular", Pretendard, "Noto Sans KR", sans-serif;
+    font-weight: 400;
   }
 
   .home-menu .menu-item:nth-child(1),
