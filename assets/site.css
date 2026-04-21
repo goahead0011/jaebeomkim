@@ -276,6 +276,36 @@ a {
   word-break: break-word;
 }
 
+.contact-link {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.contact-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+
+.contact-link:hover,
+.contact-link:focus-visible {
+  color: var(--muted);
+}
+
+.contact-link:hover::after,
+.contact-link:focus-visible::after {
+  transform: scaleX(1);
+}
+
 @media (max-width: 1279px) {
   .home-page {
     padding: 47px 0 24px;
